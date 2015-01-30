@@ -11,10 +11,7 @@ public class YourAge {
 		Scanner getAge = new Scanner(System.in);
 		System.out.println("Enter your age: ");
 		int yourAge = getAge.nextInt();
-		
-		System.out.println();
-		int afterTenYears = yourAge +10;
-		System.out.println("Your age after 10 years is "+ afterTenYears);
+		System.out.println("Your age after 10 years is "+ (yourAge+10));
 		getAge.close();
 	}
 }
