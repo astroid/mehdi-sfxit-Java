@@ -1,8 +1,8 @@
 package prject1;
 /*
- * a program which reads two arrays from the console and compares them 
-element by element in order to check if they are identical. 
-The arrays are identical if their corresponding elements are equal.
+* a program which reads two arrays from the console and compares them 
+* element by element in order to check if they are identical. 
+* The arrays are identical if their corresponding elements are equal.
  */
 
 
@@ -30,14 +30,13 @@ public class ArrayComparision {
       array2[i] = input.nextInt();
     }
     input.close();
-    if (equal(array1, array2)) {
+    if (arrayCheck(array1, array2)) {
       System.out.println("The arrays are identical.");
     }
     else
       System.out.println("The arrays are not identical");
   }
 
-  public static boolean equal(int[] array1, int[] array2)
   public static boolean arrayCheck(int[] array1, int[] array2)
   {
     if (array1.length != array2.length) {
