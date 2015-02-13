@@ -20,14 +20,14 @@ public class AboveAverage {
 		}
 		input.close();
 
-		double average = sum / 10;
+		double averageNum = sum / 10;
 
 		int counter = 0;
 		for (int i = 0; i < 10; i++)
-			if (arrNumbers[i] > average)
+			if (arrNumbers[i] > averageNum)
 				counter++;
 
-		System.out.println("The average is " + average);
+		System.out.println("The average is " + averageNum);
 		System.out
 				.println("The number of the items greater than the average is "
 						+ counter);
