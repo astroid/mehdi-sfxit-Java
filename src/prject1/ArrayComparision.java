@@ -38,6 +38,7 @@ public class ArrayComparision {
   }
 
   public static boolean equal(int[] array1, int[] array2)
+  public static boolean arrayCheck(int[] array1, int[] array2)
   {
     if (array1.length != array2.length) {
       return false;
